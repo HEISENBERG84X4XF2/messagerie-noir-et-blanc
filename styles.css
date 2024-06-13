@@ -1,0 +1,49 @@
+body {
+    background-color: #f0f0f0;
+    color: #000;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.messagerie {
+    border: 1px solid #000;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.messages {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    border-bottom: 1px solid #000;
+}
+
+.input-area {
+    display: flex;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-top: 1px solid #000;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333;
+}
